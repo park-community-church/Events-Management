@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Sheets API Quickstart</title>
+    <meta charset='utf-8' />
+</head>
+<body>
+<p>Google Sheets API Quickstart</p>
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="production.js"></script>
+<div id="park-events"></div>
+
+<script async defer src="https://apis.google.com/js/api.js"
+        onload="this.onload=function(){};loadEvents()"
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
+</body>
+</html>
